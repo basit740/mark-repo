@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.color-lblue {
+    color: #2A9DF4;
+}
+.color-blue {
+    color: #282D5A;
+}
+.bg-lblue {
+    background: #2A9DF4;
+}
+.bg-blue {
+    background-color: #282D5A;;
+}
+.sidebar {
+    background: #fff;
+    max-width: 200px;
+    width: 100%;
+    padding: 30px 10px;
+    position: fixed;
+}
+.sidebar-content {
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-bar {
+    display: block;
+}
+.logo-bar img {
+    display: block;
+    text-align: center;
+    margin: 0px auto 10px auto;
+}
+.sidebar ul li {
+    margin: 10px 0px 15px;
+    text-align: left; 
+}
+.sidebar ul li a {
+    color: #A0AEC7;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.sidebar ul li span {
+    padding-left: 10px;
+}
+
+/* Main Content */
+.main-content {
+    background: #F2F5FA;
+    margin-left: 200px;
+    padding: 20px 15px;
+}
+.main-content .main-title {
+    color: #282D5A;
+}
+.main-content .inner-heading {
+    color: #A0AEC7;
+    font-size: 22px;
+    margin-top: 25px;
+}
+.main-content .equal-row> div {
+    display: flex;
+}
+.main-content .package-column {
+    background: #fff;
+    padding: 14px 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+.main-content .inner-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DADADA;
+    padding: 10px 0px 20px;
+}
+.package-column .inner-head h4,
+.package-column .inner-footer h4 {
+    color: #282D5A;
+    font-size: 20px;
+    font-weight: 600;
+}
+.package-column .btn-edit {
+    background-color: #2A9DF4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.package-column .inner-body {
+    padding: 20px 0px;
+}
+.inner-body .item-list {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.inner-body .item-list li::before {
+    font-family: "FontAwesome";
+    content:"\f058";
+    color: #2A9DF4;
+    margin-right: 8px;
+}
+.package-column .inner-footer {
+    border-top: 1px solid #DADADA;
+    padding: 10px 0px 20px;
+}
+.package-column .inner-footer h4 {
+    margin: 0px 0px 5px;
+}
+.package-column .total-text h4 {
+    color: #282D5A;
+    font-size: 14px;
+}
+.package-column .total-text p {
+    font-size: 14px;
+}
+.package-column .total-value h4 {
+    color: #282D5A;
+    font-weight: 500;
+    text-align: right;
+}
+.main-content .payment-column {
+    background: #282D5A;
+    padding: 14px 15px;
+    border-radius: 10px;
+}
+.payment-column .main-head {
+    color: #fff;
+    padding: 10px 0px 0px;
+}
+.payment-column form {
+    padding: 10px 0px;
+}
+.payment-column .input-row {
+    padding: 20px 0px 0px;
+}
+.payment-column .input-row input::placeholder,
+.payment-column .full-width input::placeholder {
+    color: #fff;
+}
+.payment-column input, .payment-column input:focus {
+    border: 1px solid #484F89;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.payment-column .input-row > div input {
+    padding: 12px 10px;
+}
+.payment-column .input-row .first-input {
+    border-radius:  10px 10px 0px 0px;
+}
+.payment-column .input-row .second-input {
+    border-top-width: 0px;
+    border-radius:  0px 0px;
+    
+}
+.payment-column .input-row .credit-group {
+    position: relative;
+}
+.payment-column .input-row .credit-group img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    max-width: 120px;
+}
+.payment-column .full-width > div {
+    padding: 0px;
+}
+.payment-column .full-width > div:nth-child(1) input{
+    border-radius:  0px 0px 0px 10px;
+}
+.payment-column .full-width > div:nth-child(2) input{
+    border-radius:  0px 0px 10px 0px;
+}
+.payment-column .full-width > div input {
+    padding: 12px 10px;
+    border-top-width: 0px;
+}
+.button-group {
+    margin: 20px auto;
+}
+.button-group .btn-purchase, .button-group .btn-purchase:hover {
+    background-color: #2A9DF4;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+}
+.button-group .button-default {
+    text-align: center;
+    display: block;
+    margin: 8px auto;
+    color: #fff;
+}
